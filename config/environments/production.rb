@@ -96,7 +96,7 @@ Rails.application.configure do
 
 
 
-  
+
 
   # Mailer
   ActionMailer::Base.smtp_settings = {
@@ -108,7 +108,6 @@ Rails.application.configure do
     :authentication => :plain,
     :enable_starttls_auto => true
   }
-
 
 
 
